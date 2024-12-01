@@ -1,6 +1,6 @@
-#  3D Portfolio 🚀
+# Portfolio 🚀
 
-Welcome to my **interactive 3D portfolio**! 🌐 This project is designed to offer you an immersive experience using **Three.js**, where you can explore my projects and professional journey while interacting with animated 3D objects. Plus, a **command terminal** lets you access all my information in a fun way! 🖥️✨
+Welcome to my **interactive 3D portfolio** ! 🌐 This project is designed to offer you an immersive experience using **Three.js**, where you can explore my projects and professional journey while interacting with animated 3D objects. Plus, a **command terminal** lets you access all my information in a fun way ! 🖥️✨
 
 ## 🎨 Technologies Used
 
@@ -64,3 +64,8 @@ Here are some of the main features you can explore in 3dfolio:
 - Command Terminal: Use an integrated terminal to check out my info and see my journey in an interactive format 🖥️
 - Dynamic Portfolio: Navigate easily between different sections of my portfolio using React Router 🚀
 - Responsive Design: Enjoy a sleek and adaptable interface thanks to Tailwind CSS 📱💻
+
+### 🧑‍💻 Inspiration
+
+- The 3D models used in this project were sourced from [Sketchfab](https://sketchfab.com). 🎨
+- The layout and design of the website were inspired by this YouTube tutorial: [How to Build a 3D Portfolio. 🎥](https://www.youtube.com/watch?v=0fYi8SGA20k&t=25s)
