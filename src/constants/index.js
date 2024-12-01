@@ -251,7 +251,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/Infinityy1001/Portfolio",
-    live_demo_link: "https://infinityy1001.github.io/CS-Heap-Function-C/",
+    live_demo_link: "https://infinityy1001.github.io/Portfolio/dist/index.html",
   },
   {
     name: "CMD Prompt",
