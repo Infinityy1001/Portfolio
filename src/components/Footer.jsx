@@ -20,7 +20,7 @@ const Footer = () => {
         />
         <AiFillExperiment 
           size = {30}
-          class = "cursor-pointer hover:opacity-80"
+          className= "cursor-pointer hover:opacity-80"
           onClick={() => window.open("https://infinityy1001.github.io/CMD/src/index.html")}
         />
 

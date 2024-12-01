@@ -27,8 +27,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     emailjs.send(
-      'service_qvxfejm',
-      'template_rhlz2mb',
+      'service_8na1ar4',
+      'template_rxxtsbg',
       {
         from_name: form.name,
         to_name: 'Antoine MARTINET',
@@ -36,7 +36,7 @@ const Contact = () => {
         to_email: 'antoine.martinet@edu.devinci.fr',
         message: form.message,
       },
-      'f0l_A5FJJq52H6NTB'
+      'mYDxKkWzy_HapDrZj'
     )
     .then(() => {
       setLoading(false);

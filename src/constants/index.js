@@ -278,7 +278,7 @@ const projects = [
   {
     name: "CS Project : Recreate Heap in C",
     description:
-      "This project outlines the implementation details and usage of our custom memory allocation functions: mymalloc(), myfree(), myrealloc(), and mycalloc(). These functions are designed to allocate memory on the heap of a program using the brk(2) and sbrk(2) system calls.",
+      "This project outlines the implementation details and usage of our custom memory allocation functions: mymalloc(), myfree(), myrealloc(), and mycalloc().",
     tags: [
       {
         name: "C",
