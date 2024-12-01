@@ -8,6 +8,7 @@ import { slideIn } from "../utils/motion";
 import { textVariant } from "../utils/motion";
 import Modal from "./Modal";
 
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({

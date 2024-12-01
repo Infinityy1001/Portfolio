@@ -3,4 +3,3 @@ vite.config.js
 package-lock.json
 postcss.config.cjs
 tailwind.config.cjs
-src/components/Contact.jsx

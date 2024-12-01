@@ -20,7 +20,7 @@ const ProjectCard = ({
 
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.2, 0.75)}>
-      <div className="bg-tertiary p-5 rounded-2xl w-full max-w-[380px] shadow-card dark:bg-slate-100 dark:text-neutral-900">
+      <div className="bg-tertiary p-5 rounded-2xl w-full max-w-[380px] sm:max-w-full shadow-card dark:bg-slate-100 dark:text-neutral-900">
         <div className="relative w-full h-[230px]">
           <img
             src={image}
@@ -30,8 +30,8 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <button
               type="button"
-              onMouseEnter={() => setGitHover(true)}
-              onMouseLeave={() => setGitHover(false)}
+              onTouchStart={() => setGitHover(true)}
+              onTouchEnd={() => setGitHover(false)}
               onClick={() => window.open(source_code_link, "_blank")}
               className="z-10 mr-2 bg-black/70 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
@@ -43,8 +43,8 @@ const ProjectCard = ({
             </button>
             <button
               type="button"
-              onMouseEnter={() => setLiveHover(true)}
-              onMouseLeave={() => setLiveHover(false)}
+              onTouchStart={() => setLiveHover(true)}
+              onTouchEnd={() => setLiveHover(false)}
               onClick={() => window.open(live_demo_link, "_blank")}
               className="z-10 bg-black/70 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
@@ -91,8 +91,7 @@ const Works = () => {
           projects effectively.
         </motion.p>
       </div>
-
-      <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+      <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 min-h-[300px]">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}
