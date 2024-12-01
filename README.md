@@ -58,7 +58,7 @@ npm run preview
 
 ### 🎮 Project Features
 
-Here are some of the main features you can explore in 3dfolio:
+Here are some of the main features you can explore:
 
 - 3D Animation: Interact with animated objects and explore my projects in an immersive way 🎡
 - Command Terminal: Use an integrated terminal to check out my info and see my journey in an interactive format 🖥️
