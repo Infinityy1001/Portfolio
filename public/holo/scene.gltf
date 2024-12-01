@@ -1,0 +1,440 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        39.419212341308594,
+        13.820054054260254,
+        0.8315298557281494
+      ],
+      "min": [
+        -39.419212341308594,
+        -13.820054054260254,
+        -0.39020755887031555
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1296,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        0.9999982714653015,
+        1.0,
+        0.9999922513961792,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        0.9799999594688416,
+        0.961524486541748
+      ],
+      "min": [
+        0.019999999552965164,
+        0.019999999552965164
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 180,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2592,
+      "componentType": 5126,
+      "count": 23347,
+      "max": [
+        63.58112716674805,
+        1.5,
+        2.0125255584716797
+      ],
+      "min": [
+        -1.5,
+        -20.61949920654297,
+        -0.9112986326217651
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 282756,
+      "componentType": 5126,
+      "count": 23347,
+      "max": [
+        0.9951344728469849,
+        0.995133638381958,
+        1.0
+      ],
+      "min": [
+        -0.9951367378234863,
+        -0.9951342940330505,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1728,
+      "componentType": 5126,
+      "count": 23347,
+      "max": [
+        1.0,
+        0.6875233054161072,
+        0.9997793436050415,
+        1.0
+      ],
+      "min": [
+        -0.9949845671653748,
+        -0.9937878251075745,
+        -0.9998178482055664,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 864,
+      "componentType": 5126,
+      "count": 23347,
+      "max": [
+        0.9900174736976624,
+        0.9799999594688416
+      ],
+      "min": [
+        0.00716705247759819,
+        0.008130352944135666
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 720,
+      "componentType": 5125,
+      "count": 58464,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "asd123a (https://sketchfab.com/asd123a)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/hyperx-alloy-fps-pro-keyboard-8b6502af6db24c9699b5f2a2f8ef98fc",
+      "title": "HyperX Alloy FPS Pro Keyboard"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 234576,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 187640,
+      "byteOffset": 234576,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 562920,
+      "byteOffset": 422216,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 375280,
+      "byteOffset": 985136,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1360416,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/BackPlate_baseColor.png"
+    },
+    {
+      "uri": "textures/BackPlate_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/BackPlate_normal.png"
+    },
+    {
+      "uri": "textures/Keycaps_baseColor.png"
+    },
+    {
+      "uri": "textures/Keycaps_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Keycaps_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "BackPlate",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Keycaps",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "BackPlate_BackPlate_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Keycap_Keycaps_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "24125774b6514728873763de614b22cc.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.6220790147781372,
+        3.601738939935955e-16,
+        0.0,
+        5.032499313354492,
+        -2.350858688354492,
+        10.951498985290527,
+        1.0
+      ],
+      "name": "BackPlate"
+    },
+    {
+      "mesh": 0,
+      "name": "BackPlate_BackPlate_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.1632879972457886,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.5830182376247203e-16,
+        -1.1632879972457886,
+        0.0,
+        0.0,
+        1.1632879972457886,
+        2.5830182376247203e-16,
+        0.0,
+        -31.144826889038086,
+        0.2185375690460205,
+        -0.3795579671859741,
+        1.0
+      ],
+      "name": "Keycap"
+    },
+    {
+      "mesh": 1,
+      "name": "Keycap_Keycaps_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}
