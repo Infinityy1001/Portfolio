@@ -28,8 +28,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     emailjs.send(
-      'service_8na1ar4',
-      'template_rxxtsbg',
+      import.meta.env.VITE_EMAILJS_SERVICE_ID, 
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: 'Antoine MARTINET',
@@ -37,7 +37,7 @@ const Contact = () => {
         to_email: 'antoine.martinet@edu.devinci.fr',
         message: form.message,
       },
-      'mYDxKkWzy_HapDrZj'
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     )
     .then(() => {
       setLoading(false);
