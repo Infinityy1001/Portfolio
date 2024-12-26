@@ -32,9 +32,13 @@ import ray_marching from './ray_marching.png';
 import cmd from './cmd.png';
 import heap from './heap.png';
 import portfolio from './portfolio.png';
+import chatbot from './chatbot.png';
+import hand_tracking from './hand_tracking.png'
 
 export {
   portfolio, 
+  hand_tracking,
+  chatbot,
   heap,
   cmd,
   ray_marching, 

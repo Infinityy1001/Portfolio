@@ -28,7 +28,9 @@ import {
   innovation, 
   heap,
   portfolio,
-  cmd
+  cmd, 
+  chatbot, 
+  hand_tracking
 } from "../assets";
 
 export const navLinks = [
@@ -251,7 +253,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/Infinityy1001/Portfolio",
-    live_demo_link: "https://infinityy1001.github.io/Portfolio/dist/index.html",
+    live_demo_link: "https://infinityy1001.github.io/CS-Heap-Function-C/",
   },
   {
     name: "CMD Prompt",
@@ -278,7 +280,7 @@ const projects = [
   {
     name: "CS Project : Recreate Heap in C",
     description:
-      "This project outlines the implementation details and usage of our custom memory allocation functions: mymalloc(), myfree(), myrealloc(), and mycalloc().",
+      "This project outlines the implementation details and usage of our custom memory allocation functions: mymalloc(), myfree(), myrealloc(), and mycalloc(). These functions are designed to allocate memory on the heap of a program using the brk(2) and sbrk(2) system calls.",
     tags: [
       {
         name: "C",
@@ -288,6 +290,42 @@ const projects = [
     image: heap,
     source_code_link: "https://github.com/Infinityy1001/CS-Heap-Function-C",
     live_demo_link: "https://infinityy1001.github.io/CS-Heap-Function-C/",
+  },
+  {
+    name: "AI Chatbot Teacher",
+    description:
+      "This project is a web-based chatbot application designed to answer questions related to Artificial Intelligence (AI). It uses the Hugging Face Transformers library for generating responses and the WebGPU for faster processing.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatbot,
+    source_code_link: "https://github.com/Infinityy1001/AI-Chatbot-Teacher",
+    live_demo_link: "https://infinityy1001.github.io/AI-Chatbot-Teacher/",
+  },
+  {
+    name: "Face Detection and Hand Tracking",
+    description:
+      "This project demonstrates a basic implementation of face detection and hand tracking using OpenCV and Mediapipe in Python. A pre-trained Haar Cascade classifier is used to detect faces in real-time from a webcam feed. Detected faces are highlighted with rectangles in the video stream.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: hand_tracking,
+    source_code_link: "https://github.com/Infinityy1001/Facial-Recognition",
+    live_demo_link: "https://infinityy1001.github.io/Facial-Recognition/web-version/",
   },
 ];
 
